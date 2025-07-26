@@ -1,0 +1,129 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00f7ff, #4cff85, #b772ef);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+ height: 500px;
+ position: relative;
+ align-items: center;
+ justify-content: center;
+}
+.container{
+   display: grid;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.name{
+  margin-top: 185px;
+  justify-self: center;
+  font-size: x-large;
+  font-family:Playwrite AU QLD, cursive;
+  font-weight: bolder;
+  color: #4f4747;
+}
+.programmer{
+  font-family: Bitcount, system-ui;
+  color: #4f4747;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  margin-left: 13px;
+}
+.logo{
+  height: 80px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 50px;
+  padding-left: 0cm;
+
+}
+.logo1{
+  height: 100px;
+  position: absolute ;
+  bottom:0 ;
+  right: 0;
+  justify-content: flex-end;
+  align-items: flex-end;
+  align-self: end;
+  margin: 50px;
+
+}
+.d-block{
+  border-radius: 50%;
+}
+.hi{
+  color: blueviolet;
+  font-weight:bold;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.second container{
+justify-self: center;
+  align-items: center;
+  align-self: center;
+ 
+}
+.skill{
+  
+  justify-self: center;
+ align-self: center;
+  color:blueviolet;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+}
+.skills{
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 50px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+
+.cpp{
+  
+  width:250px;
+  
+  margin-bottom: 10px;
+  float: left;
+  margin-right: 10px;
+ 
+}
+
+.one{
+  color: purple;
+}
+.two{
+  color: #b772ef;
+  font-weight: lighter;
+}
+.three{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.btn{
+  background: linear-gradient(to bottom, #e0bbff, #6a0dad); /* light violet to deep purple */
+  color: white;
+  border: none;
+  font-size: larger;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  width:140px;
+
+}
+.bottom-container {
+  background-color:#6a0dad;
+  padding: 50px 0 50px;
+}
+.insta,
+.linked,
+.face,
+.nav-link {
+  color:rgb(255, 255, 255)!important; /* Example: white */
+}
+
+footer p.text-center.text-body-secondary {
+  color: #dcdcdc !important; /* Example: light grey */
+}
+
+
